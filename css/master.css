@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Josefin;
+  src: url('/fnt/Josefin/JosefinSans-Regular.ttf');
+}
+
+/*BODY*/
+body{
+  color:white;
+  background-color: rgb(50, 55, 65);
+}
+
+/*HEADERS*/
 h1{
-  font-family: "Trebuchet",Trebuchet,sans-serif;
+  font-family: Josefin;
 }
