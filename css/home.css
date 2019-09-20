@@ -29,3 +29,6 @@ img.voidb {
     z-index: -50;
     animation: rotateccw 30s infinite linear;
 }
+h1{
+  font-size: 72pt;
+}
