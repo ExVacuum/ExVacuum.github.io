@@ -1,18 +1,25 @@
 <!DOCTYPE HTML>
-<html>
+<html id = "page">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/master.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript">
   jQuery(window).trigger('resize').trigger('scroll');
+  $('#page').imagesLoaded( function() {
+    $('body').addClass('loaded');
+});
+
   </script>
 </head>
   <body>
     <div id="loader-wrapper">
-      <div id="loader"></div>
+      <img id="loader" src="/img/void.png">
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
     </div>
     {{content}}
   </body>
