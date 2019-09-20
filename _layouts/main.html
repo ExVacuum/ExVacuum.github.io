@@ -9,7 +9,7 @@
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript">
   jQuery(window).trigger('resize').trigger('scroll');
-  $('#page').imagesLoaded( function() {
+  $('html').imagesLoaded( function() {
     $('body').addClass('loaded');
 });
 
