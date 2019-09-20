@@ -1,19 +1,19 @@
 @keyframes rotatecw {
   from {
     opacity: 0.85;
-    transform: rotate(0deg) scale(2,2);
+    transform: rotate(0deg) scale(1.5,1.5);
   }
   to {
     opacity: 0.85;
-    transform: rotate(360deg) scale(2,2);
+    transform: rotate(360deg) scale(1.5,1.5);
   }
 }
 @keyframes rotateccw {
   from {
-    transform: rotate(360deg) scale(-1.85,1.85);
+    transform: rotate(360deg) scale(-1.25,1.25);
   }
   to {
-    transform: rotate(0deg) scale(-1.85,1.85);
+    transform: rotate(0deg) scale(-1.25,1.25);
   }
 }
 
