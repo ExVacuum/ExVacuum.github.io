@@ -1,47 +1,52 @@
 @keyframes rotatecw {
   from {
-    width: 100vw;
+    width: 150vh;
     opacity: 0.85;
     transform: rotate(0deg) scale(1,1);
   }
   to {
-    width: 100vw;
+    width: 150vh;
     opacity: 0.85;
     transform: rotate(360deg) scale(1,1);
   }
 }
 @keyframes rotateccw {
   from {
-    width: 100vw;
+    width: 150vh;
     transform: rotate(360deg) scale(-0.75,0.75);
   }
   to {
-    width: 100vw;
+    width: 150vh;
     transform: rotate(0deg) scale(-0.75,0.75);
   }
 }
 
 img.voida {
     position: absolute;
-    top: -40vw;
-    left: -40vw;
+    top: -30vh;
+    left: -30vh;
     z-index: -50;
     animation: rotatecw 60s infinite linear;
 }
 img.voidb {
     position: absolute;
-    top: -40vw;
-    left: -40vw;
+    top: -30vh;
+    left: -30vh;
     z-index: -50;
     animation: rotateccw 30s infinite linear;
 }
 h1{
-  font-size: 72pt;
+  font-size: 10vw;
 }
-
+h2{
+  font-size: 2vw;
+}
+.landing-header{
+    vertical-align: middle;
+}
 #vid{
   position: absolute;
   top:0px;
   left: 0px;
-  height: 25vw;
+  height: 50vh;
 }

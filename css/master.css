@@ -8,6 +8,16 @@
   src: url('/fnt/Josefin/JosefinSans-Regular.ttf');
 }
 
+@font-face {
+  font-family: OpenSans;
+  src: url('/fnt/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('/fnt/Roboto/Roboto-Regular.ttf');
+}
+
 @-webkit-keyframes spin {
     0%   {
         -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
@@ -35,7 +45,6 @@
 
 /*SITE MANAGEMENT JUNK*/
 .parallax-window {
-    min-height: 400px;
     background: transparent;
 }
 #loader-wrapper {
@@ -80,12 +89,14 @@
 /* Loaded */
 .loaded #loader {
     opacity: 0;
+    z-index: -5000;
     -webkit-transition: all 1s ease-out;
     transition: all 1s ease-out;
 }
 
 .loaded #loader-wrapper {
       opacity: 0;
+      z-index: -5000;
       -webkit-transition: all 2s ease-out;
       transition: all 2s ease-out;
 }
@@ -101,7 +112,6 @@ body{
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -129,4 +139,7 @@ h1{
 }
 h1.loadertitle{
     color: #EEEEEE;
+}
+h2{
+  font-family: OpenSans;
 }
