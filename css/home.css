@@ -71,9 +71,9 @@ h2{
 @media only screen and (max-width: 768px) {
   #vid{
     position: absolute;
-    top:24%;
+    top:20vh;
     left: 0;
-    height: 26%;
+    height: 30vh;
   }
   #header-text{
     left: 0%;
