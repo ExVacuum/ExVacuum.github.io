@@ -1,36 +1,47 @@
 @keyframes rotatecw {
   from {
+    width: 100vw;
     opacity: 0.85;
     transform: rotate(0deg) scale(1,1);
   }
   to {
+    width: 100vw;
     opacity: 0.85;
     transform: rotate(360deg) scale(1,1);
   }
 }
 @keyframes rotateccw {
   from {
+    width: 100vw;
     transform: rotate(360deg) scale(-0.75,0.75);
   }
   to {
+    width: 100vw;
     transform: rotate(0deg) scale(-0.75,0.75);
   }
 }
 
 img.voida {
     position: absolute;
-    top: -55%;
-    left: -30%;
+    top: -40vw;
+    left: -40vw;
     z-index: -50;
     animation: rotatecw 60s infinite linear;
 }
 img.voidb {
     position: absolute;
-    top: -55%;
-    left: -30%;
+    top: -40vw;
+    left: -40vw;
     z-index: -50;
     animation: rotateccw 30s infinite linear;
 }
 h1{
   font-size: 72pt;
+}
+
+#vid{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  height: 25vw;
 }
