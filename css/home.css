@@ -44,9 +44,50 @@ h2{
 .landing-header{
     vertical-align: middle;
 }
+
+#header-text{
+  position:relative;
+  left: 30%;
+  width:70%;
+  height:100%;
+}
+
 #vid{
   position: absolute;
   top:0px;
   left: 0px;
   height: 50vh;
+}
+#silas-section, #contact-section{
+  padding: 5%;
+  background-color: #1a1a1a;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 5px 10px rgba(0,0,0,0.24);
+}
+
+#programming-section, #work-section{
+  padding: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  #vid{
+    position: absolute;
+    top:24%;
+    left: 0;
+    height: 26%;
+  }
+  #header-text{
+    left: 0%;
+    width:100%;
+  }
+  h1{
+    font-size: 12vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+
+  img.voida, img.voidb{
+    top: -10vh;
+    left: -75vh;
+  }
 }
