@@ -1,38 +1,36 @@
 @keyframes rotatecw {
   from {
-    width: 150vh;
     opacity: 0.85;
-    transform: rotate(0deg) scale(1,1);
+    transform: rotate(0deg) scale(3,3);
   }
   to {
-    width: 150vh;
     opacity: 0.85;
-    transform: rotate(360deg) scale(1,1);
+    transform: rotate(360deg) scale(3,3);
   }
 }
 @keyframes rotateccw {
   from {
-    width: 150vh;
-    transform: rotate(360deg) scale(-0.75,0.75);
+    transform: rotate(360deg) scale(-2.25,2.25);
   }
   to {
-    width: 150vh;
-    transform: rotate(0deg) scale(-0.75,0.75);
+    transform: rotate(0deg) scale(-2.25,2.25);
   }
 }
 
 img.voida {
     position: absolute;
-    top: -30vh;
-    left: -30vh;
-    z-index: -50;
+    top: 10vh;
+    left: 10vh;
+    z-index: 4;
+    width: 50vh;
     animation: rotatecw 60s infinite linear;
 }
 img.voidb {
     position: absolute;
-    top: -30vh;
-    left: -30vh;
-    z-index: -50;
+    top: 10vh;
+    left: 10vh;
+    z-index: 4;
+    width: 50vh;
     animation: rotateccw 30s infinite linear;
 }
 h1{
@@ -50,6 +48,7 @@ h2{
   left: 30%;
   width:70%;
   height:100%;
+  z-index: 5;
 }
 
 #vid{
@@ -57,6 +56,7 @@ h2{
   top:0px;
   left: 0px;
   height: 50vh;
+  z-index:6;
 }
 #silas-section, #contact-section{
   padding: 5%;
@@ -87,7 +87,8 @@ h2{
   }
 
   img.voida, img.voidb{
-    top: -10vh;
-    left: -75vh;
+    top: 175px;
+    left: 0px;
+    width: 20vh;
   }
 }
