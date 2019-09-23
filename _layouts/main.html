@@ -12,9 +12,18 @@
 
   </script>
   <script type="text/javascript">
+
+  $.wait = function(ms) {
+    var defer = $.Deferred();
+    setTimeout(function() { defer.resolve(); }, ms);
+    return defer;
+  };
+
   jQuery(window).trigger('resize').trigger('scroll');
   $('html').imagesLoaded( function() {
-    $('body').addClass('loaded');
+    setTimeout(function(){
+        $('body').addClass('loaded');
+    },1000);
 });
 
   </script>
