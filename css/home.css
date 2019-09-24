@@ -68,6 +68,14 @@ h2{
   padding: 5%;
 }
 
+.list{
+  display: none;
+}
+
+.tiles{
+  display: none;
+}
+
 @media only screen and (max-width: 950px) {
   #vid{
     position: absolute;
@@ -92,7 +100,18 @@ h2{
     width: 20vh;
   }
 
-  .programming-cards{
+  .cards{
     display: none;
   }
+
+  .list{
+    display: inline-block;
+    width: 100%;
+  }
+
+  .tiles{
+    display: inline-block;
+    width: 30%;
+  }
+
 }
