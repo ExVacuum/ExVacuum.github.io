@@ -23,7 +23,8 @@ img.voida {
     left: 10vh;
     z-index: 4;
     width: 50vh;
-    animation: rotatecw 60s infinite linear;
+    filter: blur(1px);
+    animation: rotatecw 30s infinite linear;
 }
 img.voidb {
     position: absolute;
@@ -41,6 +42,10 @@ h2{
 }
 .landing-header{
     vertical-align: middle;
+}
+
+#spaceback{
+  filter: blur(5px);
 }
 
 #header-text{
