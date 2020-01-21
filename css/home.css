@@ -40,6 +40,9 @@ h1{
 h2{
   font-size: 2vw;
 }
+p{
+  font-size: 18pt;
+}
 .landing-header{
     vertical-align: middle;
 }

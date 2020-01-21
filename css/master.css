@@ -1,5 +1,5 @@
 @viewport {
-  width: device-width ;
+  width: device-width;
   zoom: 1.0 ;
 }
 
@@ -197,6 +197,43 @@ p{
 
 .tiles .button-text{
   transform: rotate(270deg);
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.card-container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+/* Make the image to responsive */
+.card-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.card-container:hover .card-overlay {
+    opacity: 1;
 }
 
 @media only screen and (max-width: 950px) {
