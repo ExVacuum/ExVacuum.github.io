@@ -21,7 +21,7 @@ img.voida {
     position: absolute;
     top: 10vh;
     left: 10vh;
-    z-index: 4;
+    z-index: -1;
     width: 50vh;
     filter: blur(1px);
     animation: rotatecw 30s infinite linear;
@@ -30,7 +30,7 @@ img.voidb {
     position: absolute;
     top: 10vh;
     left: 10vh;
-    z-index: 4;
+    z-index: -1;
     width: 50vh;
     animation: rotateccw 30s infinite linear;
 }
@@ -70,10 +70,12 @@ p{
   padding: 5%;
   background-color: #1a1a1a;
   box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 5px 10px rgba(0,0,0,0.24);
+  z-index: 10;
 }
 
-#programming-section, #work-section{
-  padding: 5%;
+#work-section{
+  padding: 5% 0%;
+  z-index: 10;
 }
 
 .list{
