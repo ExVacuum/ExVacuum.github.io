@@ -21,7 +21,7 @@ img.voida {
     position: absolute;
     top: 10vh;
     left: 10vh;
-    z-index: -1;
+    z-index: 1;
     width: 50vh;
     filter: blur(1px);
     animation: rotatecw 30s infinite linear;
@@ -30,7 +30,7 @@ img.voidb {
     position: absolute;
     top: 10vh;
     left: 10vh;
-    z-index: -1;
+    z-index: 1;
     width: 50vh;
     animation: rotateccw 30s infinite linear;
 }
