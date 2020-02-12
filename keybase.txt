@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/exvacuum
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://exvacuum.dev
+  * I am exvacuum (https://keybase.io/exvacuum) on keybase.
+  * I have a public key ASA5PUtCrGfrnZary7GfAD7oa1gkPvz9ZwPS6Vwplxgrtwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120393d4b42ac67eb9d96abcbb19f003ee86b58243efcfd6703d2e95c2997182bb70a",
+      "host": "keybase.io",
+      "kid": "0120393d4b42ac67eb9d96abcbb19f003ee86b58243efcfd6703d2e95c2997182bb70a",
+      "uid": "10f399095a9b7919c53d921ab9578a19",
+      "username": "exvacuum"
+    },
+    "merkle_root": {
+      "ctime": 1581473990,
+      "hash": "e06116a00d2af08dbe901161fbeb5edc2a96e6b925f0b004bb2d354f73c1abdf402e1bb2dfbc7c1906727bcb65e480ae34529fe648c1327abd557cd8610afe32",
+      "hash_meta": "8d4289dc2eff50bac6430b2415e8eb18cb5ecfa9cfdfcba1e819981415623b60",
+      "seqno": 14574589
+    },
+    "service": {
+      "entropy": "+BmS9piRuQ7teawWbFv3gBLO",
+      "hostname": "exvacuum.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1581474008,
+  "expire_in": 504576000,
+  "prev": "3c65122f2e373d05f88a54bfeb1dd98a8cb1b3669fb3419487b0d0be68c82b1b",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOT1LQqxn652Wq8uxnwA+6GtYJD78/WcD0ulcKZcYK7cKp3BheWxvYWTESpcCC8QgPGUSLy43PQX4ilS/6x3Zioyxs2afs0GUh7DQvmjIKxvEIFWN7OUWamIDXVtZ2H02rXeNAHk/2x8oxghqWBrPgNa8AgHCo3NpZ8RA7u4BirgyqFZIDQQH/ZkLKFi5YcVetpEAflyCQLf9ry9GZNZMp1lb6eG4DoMneBFAi6LK6GH5BoCiUt9bvaWpDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIByQ+3/8DqVHmJJQ+pULge3FVv09JjL/9XoOMMzuJ/Uo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/exvacuum
+
+==================================================================
