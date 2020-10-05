@@ -17,6 +17,8 @@
   }
 }
 
+#canvas { pointer-events:none; }
+
 img.voida {
     position: absolute;
     top: 10vh;
